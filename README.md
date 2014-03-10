@@ -31,7 +31,6 @@ You just need to write your own module corresponding to the application you want
 
 You don't have to wait and read a file anymore. You perform the attack directly when you receive some data on this specific URL. 
 This is the concept of *event driven programming*. 
-<br /><br />
 ### Installation
 
 Just clone the project : 
@@ -50,7 +49,6 @@ Usage is then displayed :
 ```
 Usage : node server.js <module.js> <port : default 8080>
 ```
-<br />
 ### Use case
 
 
