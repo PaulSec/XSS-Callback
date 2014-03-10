@@ -5,7 +5,7 @@ XSS Callback is a tool allowing you to exploit XSS vulnerabilities.
 This is a HTTP Server (developed in Node.js) that is listening on a specific port (defined when launching it).
 Everytime a victim will load the malicious link with his own cookie, the server will automatically launch the *offensive* module that you've written. 
 
-**Example of module : **
+**Example of module :**
 
 *After getting the user's cookie :*
 - Send a request to change his password
