@@ -33,7 +33,7 @@ app.get('/', function(req, res) {
 	res.send("You have nothing to see here.");
 });
 
-// check for command line argument configuration file.json
+// check for command line argument 
 if (process.argv[2] == undefined) {
 	console.log("Usage : node server.js <module.js> <port : default 8080>");
 	process.exit(1);
