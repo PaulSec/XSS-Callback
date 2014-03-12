@@ -68,6 +68,8 @@ Ok, you got it!
 #### 2) Write your (offensive) module
 
 Create your module in the folder ```module```.
+To have an overview, check the **template.js** module to have an idea. 
+The module **HAS** to have a *exploit* function. 
 
 The cookie of the victim is stored in the variable : ```req.params.cookie```. 
 
