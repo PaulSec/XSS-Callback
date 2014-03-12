@@ -1,5 +1,3 @@
-
-
 exports.exploit = function(req) {
     // get the cookie
     var cookie = req.params.cookie;
